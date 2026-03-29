@@ -1,6 +1,6 @@
 # Task Manager API
 
-This is a RESTful API built using Flask that allows users to manage tasks. The application supports basic CRUD operations, meaning users can create, read, update, and delete tasks.
+This is a restful API built using Flask that allows users to manage tasks. The application supports basic CRUD operations, meaning users can create, read, update, and delete tasks.
 
 This project demonstrates backend development concepts such as handling HTTP requests, working with JSON data, validating user input, and designing API endpoints.
 

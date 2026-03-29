@@ -1,6 +1,6 @@
 # Task Manager API
 
-This is a restful API built using Flask that allows users to manage tasks. The application supports basic CRUD operations, meaning users can create, read, update, and delete tasks.
+This is a RESTful API built using Flask that allows users to manage tasks. The application supports basic CRUD operations, meaning users can create, read, update, and delete tasks.
 
 This project demonstrates backend development concepts such as handling HTTP requests, working with JSON data, validating user input, and designing API endpoints.
 
@@ -27,26 +27,26 @@ This project demonstrates backend development concepts such as handling HTTP req
 
 ## How to Run Locally
 
-1. Clone the repository:
+### Clone the repository
 
-```
+```bash
 git clone https://github.com/Christopher-ojeda/Task-Manager-API.git
 cd Task-Manager-API
 ```
 
-2. Install dependencies:
+### Install dependencies
 
-```
+```bash
 pip install -r requirements.txt
 ```
 
-3. Run the application:
+### Run the application
 
-```
+```bash
 python app.py
 ```
 
-4. Open in browser or API client:
+### Open in browser or API client
 
 ```
 http://127.0.0.1:5000/
@@ -70,7 +70,7 @@ POST /tasks
 
 Example request body:
 
-```
+```json
 {
   "title": "Learn Flask"
 }
@@ -82,7 +82,7 @@ PUT /tasks/<id>
 
 Example request body:
 
-```
+```json
 {
   "title": "Updated Task",
   "completed": true
@@ -97,7 +97,7 @@ DELETE /tasks/<id>
 
 ## Example Response
 
-```
+```json
 {
   "id": 1,
   "title": "Learn Flask",
